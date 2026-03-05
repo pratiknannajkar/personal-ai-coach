@@ -1,75 +1,156 @@
-<<<<<<< HEAD
-# Personal AI Coach
+<img width="470" height="674" alt="screenshotshome png" src="https://github.com/user-attachments/assets/340b4970-7bdb-48db-a1b5-4cb29c68648c" />
 
-A minimal Streamlit app to experiment with coaching personas powered by the Gemini API.
 
-## Features
-- **Customizable Personas:** Choose between Career Coach, Fitness Coach, Life Coach, and Technical Mentor.
-- **Adjustable Settings:** Control response length, tone, challenge level, and creativity.
-- **Gemini AI Integration:** Powered by Google's latest Gemini models.
+# 🧠 Personal AI Coach
 
-## Setup Instructions
+An AI-powered coaching platform that helps users plan their next move, get structured career guidance, and generate actionable advice using modern AI systems.
 
-### 1. Python Installation
-Ensure you have Python 3.9 or higher installed. You can download it from [python.org](https://www.python.org/downloads/).
+This tool transforms a user's **goal, context, and constraints** into a clear step-by-step strategy.
 
-### 2. Virtual Environment Setup
-It's recommended to use a virtual environment to manage dependencies.
+---
 
-```bash
-# Create a virtual environment
-python -m venv venv
+# 🚀 Features
 
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+* AI-powered career coaching
+* Structured goal planning
+* Smart prompt-based advice generation
+* Modern dark UI
+* Template-based guidance
+* Actionable AI responses
+
+---
+
+# 🖥️ Application Screenshots
+
+## Home Interface
+
+![Home Screen](screenshots/home.png)
+
+---
+
+## User Input Section
+
+Users enter:
+
+* Objective
+* Context
+* Constraints
+
+![User Input](screenshots/input.png)
+
+---
+
+## AI Generated Advice
+
+The AI analyzes the input and generates a **structured action plan**.
+
+![AI Output](screenshots/output.png)
+
+---
+
+# 🧠 How It Works
+
+The system collects three inputs from the user:
+
+### Objective
+
+What the user wants to achieve.
+
+Example:
+
+```
+I want to learn the complete RAG pipeline
 ```
 
-### 3. Install Dependencies
-Install the required Python packages using pip:
+### Context
 
-```bash
-pip install -r requirements.txt
+The current situation of the user.
+
+Example:
+
+```
+Currently learning Data Science
 ```
 
-### 4. Configure API Key
-Set your Gemini API key as an environment variable:
+### Constraints
 
-```bash
-# On Windows (Command Prompt):
-set GEMINI_API_KEY=your_api_key_here
+Limitations the user is facing.
 
-# On Windows (PowerShell):
-$env:GEMINI_API_KEY="your_api_key_here"
+Example:
 
-# On macOS/Linux:
-export GEMINI_API_KEY=your_api_key_here
+```
+Limited time because of college
 ```
 
-### 5. Run the Application
-Start the Streamlit app:
+The AI model processes this information and generates **clear, actionable steps**.
 
-```bash
-streamlit run app.py
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+
+### AI Integration
+
+* LLM API
+
+### UI
+
+* Modern Dark Theme
+* Component-based design
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/pratiknannajkar/personal-ai-coach.git
 ```
 
-### 6. Run Evaluation
-To run the evaluation script and test the prompt against 3 predefined cases:
+Move into the project folder
 
-```bash
-python evaluation.py
+```
+cd personal-ai-coach
 ```
 
-## Project Structure
-- `app.py`: Main Streamlit application logic.
-- `prompts.py`: Stores prompt templates and persona options.
-- `evaluation.py`: Script to run test cases and print a report.
-- `requirements.txt`: List of Python dependencies.
-- `README.md`: Project documentation and setup guide.
-- `.gitignore`: Standard git ignore file.
-=======
-# personal-ai-coach
-Personal AI Coach – An AI-powered assistant that provides personalized guidance for learning, productivity, and self-improvement using LLMs and intelligent prompts.
->>>>>>> 6f1545b2d82fee57a066a23eeba8ce74205a4598
+Install dependencies
+
+```
+npm install
+```
+
+Run the project
+
+```
+npm run dev
+```
+
+---
+
+# 🎯 Future Improvements
+
+* Retrieval Augmented Generation (RAG)
+* Long-term AI memory
+* Personalized coaching
+* Knowledge-based AI responses
+* Multi-step planning agents
+
+---
+
+# 👨‍💻 Author
+
+Pratik Nannajkar
+
+AI Engineer | Machine Learning | Generative AI
+
+LinkedIn
+https://linkedin.com/in/pratik-nannajkar-ai
+
+GitHub
+https://github.com/pratiknannajkar
