@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal AI Coach
 
 A minimal Streamlit app to experiment with coaching personas powered by the Gemini API.
@@ -68,3 +69,7 @@ python evaluation.py
 - `requirements.txt`: List of Python dependencies.
 - `README.md`: Project documentation and setup guide.
 - `.gitignore`: Standard git ignore file.
+=======
+# personal-ai-coach
+Personal AI Coach – An AI-powered assistant that provides personalized guidance for learning, productivity, and self-improvement using LLMs and intelligent prompts.
+>>>>>>> 6f1545b2d82fee57a066a23eeba8ce74205a4598
