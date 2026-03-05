@@ -1,0 +1,5 @@
+{
+  "name": "Personal AI Coach",
+  "description": "A minimal Streamlit app to experiment with coaching personas powered by Gemini AI.",
+  "requestFramePermissions": []
+}
